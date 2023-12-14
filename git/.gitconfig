@@ -1,0 +1,10 @@
+[user]
+	name = Samuel Hudec
+	email = samuel.hudec@allegro.pl
+
+[alias]
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	nuke = reset --hard HEAD
+	mst = !sh -c 'git checkout master && git pull origin master'
+	mn = !sh -c 'git checkout main && git pull origin main'

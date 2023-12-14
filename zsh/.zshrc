@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -8,7 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="nanotech"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -73,6 +74,8 @@ ZSH_THEME="robbyrussell"
 plugins=(
 	git
 	zsh-autosuggestions
+	git-open
+	zsh-syntax-highlighting
 	)
 
 source $ZSH/oh-my-zsh.sh
@@ -106,6 +109,7 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval $(thefuck --alias)
+alias stt='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -a .'
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/samuel.hudec/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/samuel.hudec/google-cloud-sdk/path.zsh.inc'; fi
