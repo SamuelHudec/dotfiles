@@ -1,6 +1,6 @@
 [user]
 	name = Samuel Hudec
-	email = samuel.hudec@allegro.pl
+	email = samuel.hudec@gmail.com
 
 [alias]
         lol = log --graph --decorate --pretty=oneline --abbrev-commit
