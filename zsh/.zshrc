@@ -111,8 +111,30 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias)
 alias stt='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -a .'
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/samuel.hudec/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/samuel.hudec/google-cloud-sdk/path.zsh.inc'; fi
+alias python='/usr/bin/python3'
+alias pip='/usr/bin/pip3'
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/samuel.hudec/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/samuel.hudec/google-cloud-sdk/completion.zsh.inc'; fi
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/samuelhudec/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/Users/samuelhudec/miniforge3/etc/profile.d/conda.sh" ]; then
+#        . "/Users/samuelhudec/miniforge3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/Users/samuelhudec/miniforge3/bin:$PATH"
+#    fi
+#fi
+
+if [ -f "/Users/samuelhudec/miniforge3/etc/profile.d/conda.sh" ]; then
+    . "/Users/samuelhudec/miniforge3/etc/profile.d/conda.sh"
+fi
+
+unset __conda_setup
+
+if [ -f "/Users/samuelhudec/miniforge3/etc/profile.d/mamba.sh" ]; then
+    . "/Users/samuelhudec/miniforge3/etc/profile.d/mamba.sh"
+fi
+# <<< conda initialize <<<
+
