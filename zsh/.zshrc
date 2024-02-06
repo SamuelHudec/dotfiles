@@ -111,8 +111,8 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias)
 alias stt='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -a .'
 
-alias python='/usr/bin/python3'
-alias pip='/usr/bin/pip3'
+#alias python='/usr/bin/python3'
+#alias pip='/usr/bin/pip3'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
