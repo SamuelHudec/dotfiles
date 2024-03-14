@@ -9,3 +9,6 @@
 	mst = !sh -c 'git checkout master && git pull origin master'
 	mn = !sh -c 'git checkout main && git pull origin main'
 	fastpush = !sh -c 'git add . && git commit -m "Fast Updates" && git push'
+	new = "!sh -c 'git checkout -b \"$1\"' -"
+[core]
+	autocrlf = input
