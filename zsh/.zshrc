@@ -76,6 +76,7 @@ plugins=(
 	zsh-autosuggestions
 	git-open
 	zsh-syntax-highlighting
+	ssh-agent
 	)
 
 source $ZSH/oh-my-zsh.sh
