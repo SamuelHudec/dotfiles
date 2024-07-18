@@ -18,4 +18,4 @@ thefuck
 xz
 zsh
 zsh-autosuggestions
-docker
+nmap

@@ -139,3 +139,5 @@ if [ -f "/Users/samuelhudec/miniforge3/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda initialize <<<
 
+export PATH="/opt/homebrew/opt/e2fsprogs/bin:$PATH"
+export PATH="/opt/homebrew/opt/e2fsprogs/sbin:$PATH"
