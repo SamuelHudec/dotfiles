@@ -45,3 +45,8 @@ Fifth, clone repositories with extra plugins, that do not contain the base ohmyz
 ```bash
 scripts/ohmyzsh_plugins.sh
 ```
+
+Sixth, disable build in nano and update your nanorc (brew) file
+```bash
+scripts/nano_brew.sh
+``` 

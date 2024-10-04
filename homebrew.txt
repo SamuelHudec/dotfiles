@@ -21,3 +21,5 @@ zsh-autosuggestions
 nmap
 bat
 htop
+nano
+nanorc
