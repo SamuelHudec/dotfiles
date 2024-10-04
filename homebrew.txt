@@ -19,3 +19,5 @@ xz
 zsh
 zsh-autosuggestions
 nmap
+bat
+htop
